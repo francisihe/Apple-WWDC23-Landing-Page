@@ -1,0 +1,40 @@
+.button {
+    border: 2px solid;
+    border-radius: 20px;
+
+    min-width: 20px;
+    width: auto;
+    padding: 10px 20px;
+    font-size: medium;
+    font-weight: bold;
+}
+
+.transparent-white-white {
+    background-color: transparent;
+    border-color: white;
+    color: white;
+}
+
+.transparent-white-white:hover{
+    background-color: white;
+    border-color: white;
+    color: black;
+}
+
+.black-black-white {
+    background-color: black;
+    border-color: #1d1d1f;
+    color: white;
+}
+
+.black-black-white:hover {
+    background-color: white;
+    border-color: #1d1d1f;
+    color: black;
+}
+
+.white-black-black {
+    background-color: white;
+    border-color: #1d1d1f;
+    color: black;
+}

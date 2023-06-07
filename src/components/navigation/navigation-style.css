@@ -1,0 +1,27 @@
+
+.nav-container {
+    background-color: rgba(10, 10, 10, 0.8);
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.nav-links {
+    width: 100%;
+    max-width: 900px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.nav-links > p {
+    color: #E8E8ED;
+    font-size: 0.75rem;
+}
