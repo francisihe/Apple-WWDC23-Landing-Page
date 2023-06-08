@@ -7,6 +7,8 @@ import MacPro from '../../components/s5-mac-pro/MacPro'
 import Ios17 from '../../components/s6-ios-17/Ios17'
 import IpadOS17 from '../../components/s7-ipados-17/IpadOS17'
 import MacOSSonoma from '../../components/s8-macos-sonoma/MacOSSonoma'
+import WatchOS10 from '../../components/s9-watchos-10/WatchOS10'
+import Footer from '../../components/footer/Footer'
 
 
 const Home = () => {
@@ -20,6 +22,8 @@ const Home = () => {
         <Ios17 />
         <IpadOS17 />
         <MacOSSonoma />
+        <WatchOS10 />
+        <Footer />
     </div>
     
   )

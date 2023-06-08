@@ -1,21 +1,24 @@
 
 .s2 {
     margin: 0px;
+    margin-top: -200px;
     width: 100vw;
-    height: 150vh;
+    height: 200vh;
 
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
-    
+    z-index: -2;
 }
 
 .s2-background-image {
-    margin: auto;
-    margin-top: -18%;
-    width: 70%;
-    z-index: -2;
+    /* margin: auto; */
+    /* margin-top: -18%; */
+    width: 80%;
+    /* z-index: -1; */
+    position: absolute;
+    bottom: 0px;
 }
 
 .s2-content {
@@ -25,8 +28,8 @@
     font-size: large;
     color: black;
     position: absolute;
-    bottom: 0;
-    margin-bottom: 10px;
+    bottom: 50px;
+    /* margin-bottom: 30px; */
 }
 
 .s2-heading {
