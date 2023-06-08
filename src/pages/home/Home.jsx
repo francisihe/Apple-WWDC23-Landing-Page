@@ -10,7 +10,6 @@ import MacOSSonoma from '../../components/s8-macos-sonoma/MacOSSonoma'
 import WatchOS10 from '../../components/s9-watchos-10/WatchOS10'
 import Footer from '../../components/footer/Footer'
 
-
 const Home = () => {
   return (
     <div className='test'>
