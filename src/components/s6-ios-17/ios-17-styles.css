@@ -1,8 +1,8 @@
 
-.s4 {
+.s6 {
     margin: 0px;
     width: 100vw;
-    height: 90vh;
+    height: 130vh;
 
     display: flex;
     justify-content: center;
@@ -11,7 +11,7 @@
     background-color: white;
 }
 
-.s4-content {
+.s6-content {
     max-width: 700px;
     padding: 20px;
     text-align: center;
@@ -20,7 +20,7 @@
     top: 50px;
 }
 
-.s4-heading {
+.s6-heading {
     display: flex;
     justify-content: center;
     font-size: 3rem;
@@ -29,17 +29,30 @@
     margin-bottom: 20px;
 }
 
-.s4-body {
+.s6-body {
     margin-bottom: 30px;
     color: #86868b;
 }
 
-.s4-body-b {
-    margin-bottom: 30px;
-    color: black;
+
+.s6-image-section {
+    position: absolute;
+    bottom: 0px;
 }
 
-.s4-mac-studio {
-    position: absolute;
-    bottom: 100px;
+.s6-image-container {
+    display: flex;
+}
+
+.s6-ios-image-left {
+    margin-right: -100px;
+}
+
+.s6-ios-image-middle {
+    margin-left: -50px;
+    margin-right: -150px;
+}
+
+.s6-ios-image-right {
+    margin-right: -100px;
 }
