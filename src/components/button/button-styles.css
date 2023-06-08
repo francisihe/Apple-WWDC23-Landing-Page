@@ -25,6 +25,7 @@
     background-color: black;
     border-color: #1d1d1f;
     color: white;
+    margin: 0 10px;
 }
 
 .black-black-white:hover {
@@ -37,4 +38,11 @@
     background-color: white;
     border-color: #1d1d1f;
     color: black;
+    margin: 0 10px;
+}
+
+.white-black-black:hover {
+    background-color: black;
+    border-color: #1d1d1f;
+    color: white;
 }

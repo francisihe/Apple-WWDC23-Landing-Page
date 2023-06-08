@@ -1,42 +1,45 @@
 
-.s2 {
+.s3 {
     margin: 0px;
     width: 100vw;
-    height: 150vh;
+    height: 75vh;
 
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
-    
+    background-color: #f5f5f5;
 }
 
-.s2-background-image {
-    margin: auto;
-    margin-top: -18%;
-    width: 70%;
-    z-index: -2;
-}
-
-.s2-content {
+.s3-content {
     max-width: 700px;
     padding: 20px;
     text-align: center;
     font-size: medium;
-    color: black;
     position: absolute;
-    bottom: 0;
-    margin-bottom: 10px;
+    top: 50px;
 }
 
-.s2-heading {
+.s3-heading {
     display: flex;
     justify-content: center;
     font-size: 3rem;
     margin: 0;
     align-items: center;
+    margin-bottom: 20px;
 }
 
-.s2-body {
+.s3-body {
     margin-bottom: 30px;
+    color: #86868b;
+}
+
+.s3-body-b {
+    margin-bottom: 30px;
+    color: black;
+}
+
+.s3-macbook-image {
+    position: absolute;
+    bottom: 100px;
 }
